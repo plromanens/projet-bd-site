@@ -25,7 +25,7 @@ gsap.from("#js-case-2-moine-1", {
     trigger: "#js-case-2-moine-1",
     start: "top 65%",
     end: "bottom+=100px 100%",
-    markers: true,
+    // markers: true,
     scrub: true,
     id: "case2",
   },
@@ -35,7 +35,7 @@ gsap.from("#js-case-2-moine-1", {
 
 gsap.to("#js-case-2-moine-2", {
   // scrollTrigger: {
-  //   trigger: "#case-2-moine-2",
+  //   trigger: "#js-case-2-moine-2",
   //   start: "top 65%",
   //   end: "bottom+=100px 100%",
   //   // markers: true,
@@ -45,6 +45,22 @@ gsap.to("#js-case-2-moine-2", {
   y: -100,
   duration: 2,
   repeat: -1,
+  yoyo: true,
+  ease: "power1.inOut",
+});
+
+gsap.from("#js-case-5-avalanche", {
+  scrollTrigger: {
+    trigger: "#js-case-5-avalanche",
+    start: "50px 65%",
+    end: "bottom+=100px 100%",
+    markers: true,
+    scrub: true,
+    id: "avalanche",
+  },
+  x: -100,
+  y: -100,
+  duration: 2,
   yoyo: true,
   ease: "power1.inOut",
 });
