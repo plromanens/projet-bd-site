@@ -42,7 +42,23 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+body {
+  // background-image: url("../img-bd/case-0-Background.png");
+  // // background-size: 100% auto;
+  // background-size: cover;
+  // background-position: top center;
+  // background-attachment: fixed;
+  // // height: 100%;
+  // background-repeat: no-repeat;
+  // max-height: 100%;
+  // background-attachment: fixed;
+}
+
 h2 {
   font-size: 36px;
   margin: 0 34px 0 34px;
+}
+
+.case {
+  border: 2px solid red;
 }

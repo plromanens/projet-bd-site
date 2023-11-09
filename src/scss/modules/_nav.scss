@@ -1,11 +1,31 @@
+body {
+  margin-top: 50px;
+}
+
 .case-0-logo-tintin {
-  background-color: blue;
-  height: 50px;
-  width: 50px;
+  // background-color: rgb(184, 184, 255);
+  height: 121px;
+  width: 138.621px;
 }
 
 nav {
   display: flex;
   flex-direction: row;
-  background-color: lightgrey;
+  align-items: center;
+  background-color: #ffffd8;
+  height: 60px;
+  // margin-top: 56px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+a {
+  font-size: 36px;
+  text-decoration: none;
+  margin: 0 34px;
+}
+
+.go-home-screen {
+  margin: 0 34px 0 12;
 }
