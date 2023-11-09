@@ -40,38 +40,40 @@ gsap.to("#js-background-mountain", {
 // Case-2 Moine
 // --------------------------------------
 
-gsap.from("#js-case-2-moine-1", {
-  scrollTrigger: {
-    trigger: "#js-case-2-moine-1",
-    start: "top 65%",
-    end: "bottom+=100px 100%",
-    // markers: true,
-    scrub: true,
-    id: "case2",
-  },
-  opacity: 0,
-  duration: 5,
-});
+// gsap.from("#js-case-2-moine-1", {
+//   scrollTrigger: {
+//     trigger: "#js-case-2-moine-1",
+//     start: "top 65%",
+//     end: "bottom+=100px 100%",
+//     // markers: true,
+//     scrub: true,
+//     id: "case2",
+//   },
+//   opacity: 0,
+//   duration: 5,
+// });
 
-gsap.to("#js-case-2-moine-2", {
-  y: -100,
-  duration: 2,
-  repeat: -1,
-  yoyo: true,
-  ease: "power1.inOut",
-});
+// gsap.to("#js-case-2-moine-2", {
+//   y: -100,
+//   duration: 2,
+//   repeat: -1,
+//   yoyo: true,
+//   ease: "power1.inOut",
+// });
 
 // --------------------------------------
 // Case-3 Moine2
 // --------------------------------------
 const tl = gsap.timeline({
   scrollTrigger: {
-    trigger: "#js-case-2-moine-1",
-    start: "center+=100px 65%",
-    end: "bottom+=500px 90%",
+    trigger: ".main-case-2",
+    start: "center center",
+    // start: "top+=-250px top",
+    end: "bottom+=180px top",
     markers: true,
+    pin: true,
     scrub: true,
-    id: "case2à3",
+    // id: "case2à3",
   },
 });
 
@@ -80,9 +82,9 @@ tl.to("#js-case-2-moine-1", {
   duration: 10,
   ease: "power1.inOut",
 });
-tl.from("#js-case-3-général", {
+tl.from("#js-case-3-general", {
   opacity: 0,
-  duration: 3,
+  duration: 1,
   ease: "power1.inOut",
 });
 
@@ -90,18 +92,18 @@ tl.from("#js-case-3-général", {
 // Case-5 avalanche
 // --------------------------------------
 
-gsap.from("#js-case-5-avalanche", {
-  scrollTrigger: {
-    trigger: ".main-case-5",
-    start: "50px 65%",
-    end: "bottom+=100px 100%",
-    // markers: true,
-    scrub: true,
-    id: "avalanche",
-  },
-  x: -100,
-  y: -100,
-  duration: 2,
-  // yoyo: true,
-  ease: "power1.inOut",
-});
+// gsap.from("#js-case-5-avalanche", {
+//   scrollTrigger: {
+//     trigger: ".main-case-5",
+//     start: "50px 65%",
+//     end: "bottom+=100px 100%",
+//     // markers: true,
+//     scrub: true,
+//     id: "avalanche",
+//   },
+//   x: -100,
+//   y: -100,
+//   duration: 5,
+//   // yoyo: true,
+//   ease: "power1.inOut",
+// });
