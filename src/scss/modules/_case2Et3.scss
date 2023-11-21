@@ -1,27 +1,8 @@
-.case-2-moine-1 {
-  position: absolute;
-  background-color: rgb(173, 255, 144);
-  height: 35%;
-  width: 19%;
-}
-
-.case-2-moine-2 {
-  position: absolute;
-  background-color: rgb(255, 144, 144);
-  height: 38%;
-  width: 14%;
-}
-
-.teste-espace-pour-scroll {
-  background-color: aqua;
-  height: 300px;
-}
-
 .case-2-cadre {
   position: absolute;
   width: 64%;
-  height: 48%;
-  // aspect-ratio: 0.901 / 0.668;
+  // height: 48%;
+  aspect-ratio: 0.9 / 0.67;
   border: 2px solid black;
 }
 
@@ -30,13 +11,39 @@
   aspect-ratio: 1.44 / 0.83;
 }
 
-.case-3-general {
-  background-color: rgb(46, 98, 254);
-  height: 46%;
-  width: 61%;
+.case-2-moine-1 {
+  position: absolute;
+  background-color: rgb(107, 180, 80);
+  // height: 35%;
+  width: 19%;
+}
+
+.case-2-moine-2 {
+  position: absolute;
+  background-color: rgb(255, 144, 144);
+  // height: 38%;
+  width: 84%;
+}
+
+.teste-espace-pour-scroll {
+  background-color: aqua;
+  height: 300px;
 }
 
 .main-case-3 {
   position: relative;
   aspect-ratio: 1.44 / 0.83;
+}
+
+.case-3-general {
+  position: absolute;
+  background-color: rgb(46, 98, 254);
+  height: 46%;
+  width: 61%;
+}
+
+.case-3-moine {
+  position: absolute;
+  height: 46%;
+  width: 33%;
 }
