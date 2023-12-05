@@ -1,0 +1,61 @@
+.main-case-8 {
+  aspect-ratio: 1.44 / 0.8;
+  position: relative;
+}
+
+.case-8-perso {
+  width: 59%;
+  height: 64%;
+  border: 3px solid #000;
+  position: absolute;
+  top: 17%;
+  right: 3%;
+}
+
+.case-8-bulle {
+  width: 52%;
+  z-index: 1;
+  position: absolute;
+  top: -5%;
+  right: 29%;
+}
+
+.case-8-tintin-haddock {
+  width: 57%;
+  position: absolute;
+  top: 27%;
+  right: 12%;
+}
+
+.case-8-journal {
+  width: 29%;
+  position: absolute;
+  bottom: 0%;
+  left: 22%;
+}
+
+.main-case-9 {
+  aspect-ratio: 1.44 / 0.8;
+  position: relative;
+}
+
+.case-9-bulle {
+  width: 42%;
+  position: absolute;
+  top: 24%;
+  right: 7%;
+}
+
+.case-9-tintin {
+  width: 43%;
+  position: absolute;
+  top: 15%;
+  right: 0%;
+}
+
+.case-9-capitaine {
+  width: 38%;
+  position: absolute;
+  top: 20%;
+  left: 0%;
+}
