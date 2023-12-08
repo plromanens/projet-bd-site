@@ -16,14 +16,56 @@
   width: 30%;
   top: 27%;
   right: 14%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 // mettre en pourcent
 .title-vente {
   font-size: 53px;
+  margin: 0;
 }
 
 button {
   font-size: 24px;
   padding: 10px;
   border: 3px solid black;
+  margin: 20px 0;
+}
+
+.title-summary {
+  border-top: 3px solid rgb(255, 255, 255);
+  border-bottom: 3px solid rgb(255, 255, 255);
+  padding: 5px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.title-summary h2 {
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.title-summary img {
+  width: 4%;
+}
+
+.title-features {
+  border-bottom: 3px solid rgb(255, 255, 255);
+  padding: 5px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.title-features h2 {
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.title-features img {
+  width: 4%;
 }

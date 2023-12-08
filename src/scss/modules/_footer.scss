@@ -1,3 +1,13 @@
 footer {
   background-color: black;
 }
+
+.footer-logo-tintin {
+  width: 10%;
+}
+
+.footer-logo-tintin-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
