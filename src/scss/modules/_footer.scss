@@ -11,3 +11,38 @@ footer {
   flex-direction: row;
   justify-content: center;
 }
+
+.terms-link a {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+}
+
+.terms-link {
+  display: flex;
+  flex-direction: column;
+  padding: 90px;
+}
+
+.footer-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-media-link-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media-link-container a {
+  margin: 0;
+}
+
+.social-media-link-container i {
+  margin-right: 20px;
+}
+
+.social-media-link {
+  padding: 90px;
+}

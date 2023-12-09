@@ -5,9 +5,13 @@
     <title>projet-bd-tintin</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <script
+      src="https://kit.fontawesome.com/82dc607a5e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header class="header">
+    <header id="homescreen" class="header">
       <img
         class="background-mountain"
         id="js-background-mountain"
@@ -22,8 +26,8 @@
           />
         </div>
 
-        <a class="go-home-screen" href="">Écran d'accueil</a>
-        <a href="">Acheter l'album</a>
+        <a class="go-home-screen" href="#homescreen">Écran d'accueil</a>
+        <a href="#buyAlbum">Acheter l'album</a>
       </nav>
       <section class="main-case-1 case">
         <div class="case-1-logo-tibet" id="js-logo-tibet">
@@ -249,7 +253,7 @@
           />
         </div>
       </section>
-      <section class="main-vente case">
+      <section id="buyAlbum" class="main-vente case">
         <div class="cover-bd">
           <img
             class="image-size"
@@ -262,7 +266,9 @@
             Commandez votre BD dès maintenant et laissez-vous emporter par
             l'aventure !
           </h3>
-          <button>Aller vers la boutique</button>
+          <button>
+            <a href="">Aller vers la boutique</a>
+          </button>
           <div class="title-summary">
             <h2>Résumé</h2>
             <img
@@ -289,8 +295,22 @@
         </div>
       </div>
       <div class="footer-link-container">
-        <div class="social-media-link"></div>
-        <div class="terms-link"></div>
+        <div class="social-media-link">
+          <h3>Tintin sur les réseaux sociaux</h3>
+          <div class="social-media-link-container">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="terms-link">
+          <h3>Conditions générales</h3>
+          <a href="">Boutique</a>
+          <a href="">Mentions légales</a>
+          <a href="">CC de vente</a>
+          <a href="">Données personnelles</a>
+        </div>
       </div>
     </footer>
     <script src="js/main.js" type="module"></script>
