@@ -27,13 +27,20 @@
   right: 12%;
 }
 
-.case-8-journal {
-  width: 29%;
-  position: absolute;
-  bottom: 0%;
-  left: 22%;
+.case-8-journal-masque {
+  left: 27%;
+  width: 306px;
+  height: 404px;
+  position: relative;
+  overflow: hidden;
+  top: 45%;
 }
-
+.case-8-journal {
+  width: 181%;
+  position: absolute;
+  bottom: -36%;
+  left: -9%;
+}
 .main-case-9 {
   aspect-ratio: 1.44 / 0.8;
   position: relative;

@@ -43,10 +43,10 @@ const tl3 = gsap.timeline({
   scrollTrigger: {
     trigger: ".main-case-2",
     start: "top+=100px top+=100px",
-    end: "bottom top",
+    end: "bottom+=1000px top",
     pin: true,
     scrub: true,
-    markers: true,
+    // markers: true,
     id: "case2",
   },
 });
@@ -59,7 +59,13 @@ tl3.from("#js-case-2-moine-1", {
   opacity: 0,
   duration: 5,
 });
-gsap.to("#js-case-2-moine-2", {
+tl3.to("#js-case-2-moine-2", {
+  x: -100,
+  opacity: 0,
+  duration: 10,
+});
+
+gsap.to("#js-case-2-moine-2-vole", {
   y: -100,
   duration: 2,
   repeat: -1,
@@ -106,25 +112,24 @@ gsap.to("#js-case-2-moine-2", {
 // --------------------------------------
 const tl = gsap.timeline({
   scrollTrigger: {
-    trigger: ".main-case-2",
+    trigger: ".main-case-3",
     start: "center center",
-    // start: "top+=-250px top",
-    end: "bottom+=180px top",
+    end: "bottom+=480px top",
     // markers: true,
     pin: true,
     scrub: true,
     // id: "case2à3",
   },
 });
+tl.from("#js-case-3-moine", {
+  x: -100,
+  opacity: 0,
+  duration: 10,
+});
 
 tl.to("#js-case-2-moine-1", {
   opacity: 0,
-  duration: 10,
-  ease: "power1.inOut",
-});
-tl.from("#js-case-3-general", {
-  opacity: 0,
-  duration: 1,
+  duration: 30,
   ease: "power1.inOut",
 });
 
@@ -134,6 +139,25 @@ gsap.to("#js-case-3-moine", {
   repeat: -1,
   yoyo: true,
   ease: "power1.inOut",
+});
+// --------------------------------------
+// Case-4 bulle
+// --------------------------------------
+const tl4 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".main-case-4",
+    start: "center center",
+    end: "bottom+=1000px top",
+    // markers: true,
+    pin: true,
+    scrub: true,
+    id: "case4",
+  },
+});
+tl4.from("#js-case-4-bulle", {
+  y: -100,
+  opacity: 0,
+  duration: 1,
 });
 
 // --------------------------------------
@@ -154,6 +178,66 @@ gsap.from("#js-case-5-avalanche", {
   duration: 5,
   // yoyo: true,
   ease: "power1.inOut",
+});
+// --------------------------------------
+// Case-8 journal
+// --------------------------------------
+const tl5 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".main-case-8",
+    start: "center center",
+    end: "bottom+=1000px top",
+    // markers: true,
+    pin: true,
+    scrub: true,
+    id: "case8",
+  },
+});
+tl5.from("#js-case-8-journal", {
+  y: 100,
+  duration: 7,
+});
+tl5.to("#js-case-8-journal", {
+  scale: 1.5,
+  duration: 3,
+});
+
+// --------------------------------------
+// Case-9 haddock
+// --------------------------------------
+const tl6 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".main-case-9",
+    start: "center center",
+    end: "bottom+=1000px top",
+    // markers: true,
+    pin: true,
+    scrub: true,
+    id: "case9",
+  },
+});
+tl6.from("#js-case-9-capitaine", {
+  x: -100,
+  duration: 7,
+});
+// --------------------------------------
+// Case-10 pierre bulle
+// --------------------------------------
+const tl7 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".main-case-10",
+    start: "center center",
+    end: "bottom+=1000px top",
+    // markers: true,
+    pin: true,
+    scrub: true,
+    id: "case9",
+  },
+});
+tl7.to("#js-case-10-pierre-bulle", {
+  scale: 1.5,
+  transformOrigin: "right bottom",
+  duration: 10,
 });
 
 // --------------------------------------
@@ -191,6 +275,46 @@ timeline.from(jumelleImage, {
 //   ease: "power2.inOut",
 //   duration: 3,
 // });
+
+// --------------------------------------
+// Case-16 crac
+// --------------------------------------
+const tl8 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".main-case-12-13",
+    start: "center center",
+    end: "bottom+=1000px top",
+    // markers: true,
+    pin: true,
+    scrub: true,
+    id: "case13",
+  },
+});
+tl8.to("#js-case-13-crac", {
+  y: 100,
+  opacity: 0,
+
+  duration: 9,
+});
+// --------------------------------------
+// Case-14 boum
+// --------------------------------------
+const tl9 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".main-case-14",
+    start: "center center",
+    end: "bottom+=1000px top",
+    // markers: true,
+    pin: true,
+    scrub: true,
+    id: "case14",
+  },
+});
+tl9.to("#js-case-14-moine-boum", {
+  scale: 1.5,
+  transformOrigin: "left bottom",
+  duration: 10,
+});
 
 // --------------------------------------
 // Case-15 tintin et milou

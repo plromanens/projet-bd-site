@@ -3,6 +3,12 @@
   position: relative;
 }
 
+.case-14-moine-boum {
+  width: 60%;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
 .case-14-moines-fond {
   width: 50%;
   position: absolute;
@@ -13,12 +19,13 @@
 .case-14-boum {
   width: 30%;
   position: absolute;
-  bottom: 56%;
-  left: 20%;
+  top: 0%;
+  right: 0%;
 }
 .main-case-15 {
   aspect-ratio: 1.44 / 0.8;
   position: relative;
+  z-index: 1;
 }
 
 .case-15-tintin-milou {
