@@ -39,6 +39,9 @@ button a {
   text-decoration: none;
   margin: 0;
   font-size: 24px;
+  font-family: "field-gothic-compact", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .title-summary {
@@ -54,6 +57,9 @@ button a {
 .title-summary h2 {
   color: rgb(255, 255, 255);
   margin: 0;
+  font-family: "field-gothic-compact", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .title-summary img {
@@ -67,11 +73,15 @@ button a {
   flex-direction: row;
   justify-content: space-between;
   padding-right: 20px;
+  width: 95%;
 }
 
 .title-features h2 {
   color: rgb(255, 255, 255);
   margin: 0;
+  font-family: "field-gothic-compact", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .title-features img {
